@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
+import ThemeToggle from "@/components/ThemeToggle";
 import { useState } from "react";
 
 export default function Header() {
@@ -43,6 +44,7 @@ export default function Header() {
           <Button variant="ghost" size="icon">
             <Icon name="Search" className="h-5 w-5" />
           </Button>
+          <ThemeToggle />
           <Button variant="outline" size="sm" className="gap-2">
             <Icon name="User" className="h-4 w-4" />
             Войти
